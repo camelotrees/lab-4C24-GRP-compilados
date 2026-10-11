@@ -8,4 +8,8 @@ public class StudentController {
         System.out.println("Controlador de estudiantes listo");
     }
 
+    public void registrarEstudiante(String nombre) {
+        System.out.println("Estudiante registrado: " + nombre);
+    }
+
 }
