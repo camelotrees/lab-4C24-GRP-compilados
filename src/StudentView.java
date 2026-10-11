@@ -11,4 +11,8 @@ public class StudentView {
             System.out.println("El estudiante es menor de edad");
         }
     }
+
+    public void mostrarResumen(String nombre, int edad) {
+        System.out.println("Estudiante: " + nombre + " (" + edad + " años)");
+    }
 }
