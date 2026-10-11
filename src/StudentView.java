@@ -4,3 +4,8 @@ public class StudentView {
         System.out.println("Edad: " + edad);
     }
 }
+
+public class Ejemplos {
+    public void saludar() {
+        System.out.println("¡Hola, bienvenido!");
+    }
